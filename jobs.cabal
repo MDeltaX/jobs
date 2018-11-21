@@ -18,8 +18,8 @@ cabal-version:       >=1.8
 library
   exposed-modules:     Jobs
   -- other-modules:       
-  build-depends:       base ==4.5.*,
-                       containers == 0.4.2.1,
-                       text == 0.11.2.3,
-                       time == 1.4
+  build-depends:       base
+                       containers,
+                       text,
+                       time
   hs-source-dirs:      src
