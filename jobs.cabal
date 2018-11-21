@@ -18,7 +18,7 @@ cabal-version:       >=1.8
 library
   exposed-modules:     Jobs
   -- other-modules:       
-  build-depends:       base
+  build-depends:       base,
                        containers,
                        text,
                        time
